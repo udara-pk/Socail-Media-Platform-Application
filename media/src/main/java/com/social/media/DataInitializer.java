@@ -88,9 +88,9 @@ public class DataInitializer {
             SocialProfile profile3 = new SocialProfile();
 
             // Associate profiles with users
-            profile1.setSocialUser(user1);
-            profile2.setSocialUser(user2);
-            profile3.setSocialUser(user3);
+            profile1.setUser(user1);
+            profile2.setUser(user2);
+            profile3.setUser(user3);
 
             // Save profiles to the database (assuming you have SocialProfileRepository)
             socialProfileRepository.save(profile1);
